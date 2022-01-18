@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
         Random rand = new Random();
-        int[] numbers = new int[10];
+        int[] numbers = new int[1000000];
 
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = rand.nextInt(100);
+            numbers[i] = rand.nextInt(10000);
         }
 
         System.out.println("Before:");
